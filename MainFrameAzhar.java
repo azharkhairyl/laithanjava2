@@ -101,7 +101,7 @@ public class MainFrame extends javax.swing.JFrame {
         String resulti = logic.returnNull(mp);
         
         if (tf_name.getText().length()==0){
-            label_result.setText(resulti);
+            label_result.setText(result);
         }
         else {
             label_result.setText(result);
